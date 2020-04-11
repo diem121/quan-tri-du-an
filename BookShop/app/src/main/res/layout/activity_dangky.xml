@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:background="#FFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Đăng ký tài khoản"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/blue"
+
+            />
+        <LinearLayout
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px"
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical"
+            android:background="@color/white"
+
+            >
+            <EditText
+            android:id="@+id/txt_account"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Tên tài khoản"
+
+            />
+            <EditText
+                android:id="@+id/txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="Họ và tên"
+
+                />
+
+            <EditText
+                android:id="@+id/txt_mail"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="Email"
+
+                />
+            <EditText
+                android:id="@+id/txt_tel"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="Số điện thoại"
+
+                />
+
+            <EditText
+                android:id="@+id/txt_dc"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="Địa chỉ"
+
+                />
+            <EditText
+                android:id="@+id/txt_pw"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="Mật khẩu"
+
+                />
+            <EditText
+                android:id="@+id/txt_pw2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="Xác nhận mật khẩu"
+
+                />
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:textSize="18dp"
+                    android:layout_width="170dp"
+                    android:layout_height="60dp"
+                    android:text="Đăng ký"
+                    android:id="@+id/btn_dki"
+                    android:background="@color/lightblue"
+                    android:textColor="@color/white"
+                    />
+                <Button
+                    android:layout_marginLeft="20dp"
+                    android:textSize="18dp"
+                    android:layout_width="170dp"
+                    android:layout_height="60dp"
+                    android:text="Trở về"
+                    android:id="@+id/btn_back"
+                    android:background="@color/lightblue"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

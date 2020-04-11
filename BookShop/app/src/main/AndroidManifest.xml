@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.BookShop">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.BookShop.OrderInfomation" />
+        <activity android:name="com.example.BookShop.ArrayCart" />
+        <activity android:name="com.example.BookShop.Login" />
+        <activity android:name="com.example.BookShop.NewPassword" />
+        <activity android:name="com.example.BookShop.CodeForgotPassword" />
+        <activity
+            android:name="com.example.BookShop.ForgotPassword"
+            android:parentActivityName="com.example.BookShop.Login" />
+        <activity android:name="com.example.BookShop.ChangPass" />
+        <activity android:name="com.example.BookShop.UserInformation" />
+        <activity android:name="com.example.BookShop.BookInformation" />
+        <activity
+            android:name="com.example.BookShop.LayOutAndLisView"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.BookShop.SignUp" />
+        <activity android:name="com.example.BookShop.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.BookShop.ArrayOrder" >
+        </activity>
+    </application>
+
+</manifest>

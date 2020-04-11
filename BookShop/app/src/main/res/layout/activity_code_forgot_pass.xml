@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ForgotPassword"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:background="#FFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Xác nhận"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="@color/blue"
+
+                />
+            <LinearLayout
+                android:layout_marginLeft="50px"
+                android:layout_marginRight="50px"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:orientation="vertical"
+                android:background="@color/white"
+
+                >
+
+                <EditText
+                    android:id="@+id/Et_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:hint="Mã xác nhận"
+
+                    />
+
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/bt_code"
+                        android:layout_width="170dp"
+                        android:layout_height="60dp"
+                        android:background="@color/lightblue"
+                        android:text="Xác nhận"
+                        android:textColor="@color/white"
+                        android:textSize="18dp" />
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:textSize="18dp"
+                        android:layout_width="170dp"
+                        android:layout_height="60dp"
+                        android:text="Trở về"
+                        android:id="@+id/bt_codebackqmk"
+                        android:background="@color/lightblue"
+                        android:textColor="@color/white"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
