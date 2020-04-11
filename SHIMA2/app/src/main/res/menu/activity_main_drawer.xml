@@ -7,18 +7,18 @@
         <item
             android:id="@+id/nav_shift"
             android:icon="@drawable/shift"
-            android:title="Lịch làm việc" />
+            android:title="@string/lable_shift" />
         <item
             android:id="@+id/nav_wage"
             android:icon="@drawable/wage"
-            android:title="Tiền lương" />
+            android:title="@string/lable_wage" />
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_profile"
-            android:title="Hồ sơ cá nhân" />
+            android:title="@string/lable_profile" />
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/logout"
-            android:title="Đăng Xuất" />
+            android:title="@string/lable_logout" />
     </group>
 </menu>
